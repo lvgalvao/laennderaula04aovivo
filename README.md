@@ -38,12 +38,15 @@ Siga estas etapas para configurar o projeto em sua máquina local:
 
 ## Uso
 
-[Adicione aqui instruções sobre como usar os scripts ou analisar os dados do projeto]
+Para rodar o projeto, execute o comando:
+```
+python src/pipeline.py
+```
 
 ## Estrutura do Projeto
 
 - `data/input/vendas.csv`: Arquivo CSV contendo dados de vendas
-- [Liste aqui outros arquivos ou diretórios importantes do projeto]
+- `data/output/vendas.parquet`: Arquivo Parquet contendo os dados transformados
 
 ## Contribuição
 
